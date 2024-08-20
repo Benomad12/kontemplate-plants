@@ -211,7 +211,115 @@ body{
 
 
 
+/* Estilos para el contenedor del carrito */
+.conteiner-cart-products {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 60px; /* Ajusta según la altura del header */
+    right: 10px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+}
 
+/* Estilos para cada producto en el carrito */
+.cart-product {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Información del producto en el carrito */
+.info-cart-product {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.cantidad-product-carrito {
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.titulo-producto-carrito {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.precio-producto-carrito {
+    margin-right: 10px;
+}
+
+/* Botones de control del carrito */
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* Estilos para el botón de agregar */
+.agregar1, .agregar2, .agregar3, .agregar4 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.agregar1:hover, .agregar2:hover, .agregar3:hover, .agregar4:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el botón de sumar */
+.sumar {
+    background-color: #007bff;
+    color: white;
+}
+
+.sumar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el botón de restar */
+.restar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.restar:hover {
+    background-color: #c82333;
+}
+
+/* Estilos para el botón de eliminar */
+.eliminar {
+    background-color: #6c757d;
+    color: white;
+}
+
+.eliminar:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para el total del carrito */
+.cart-total {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.total-pagar {
+    color: #333;
+}
 
 
 
